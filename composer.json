@@ -1,0 +1,21 @@
+{
+    "name": "ennieibaraki/sqa_tester",
+    "description": "SQA Test Case Generator",
+    "type": "project",
+    "require": {
+        "phpoffice/phpword": "^1.3",
+        "mpdf/mpdf": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ennieibaraki\\SqaTester\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "manuel-villanueva",
+            "email": "manuelvillanueva9999@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
